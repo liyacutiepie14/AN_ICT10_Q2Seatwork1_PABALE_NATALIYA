@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Biringan City Citizen Check</title>
+  <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
+<style>
+    body {
+        font-family: 'Bebas Neue', sans-serif;
+        background-image: url('biringanbg.jpg');
+        background-size: cover;
+        text-align: center;
+        padding: 50px;
+    }
+    h1 {
+        color: #e0f3ff;
+        text-shadow: 5px 5px #00000034;
+    }
+    input {
+        padding: 10px;
+        margin: 10px;
+        width: 200px;
+    }
+    button {
+        padding: 10px 20px;
+        margin: 10px;
+        border-radius: 5px;
+        background-color: #ffffff81;
+        shadow: 2px 2px #0000001b;
+        font-family: 'Bebas Neue', sans-serif;
+        font-color: rgb(48, 36, 26);
+    }
+    #result {
+        margin-top: 20px;
+        font-size: 1.2em;
+    }
+    .box {
+    background-color: rgba(190, 226, 255, 0.571);
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 10px #00000041;
+    }
+    first_name, last_name {
+        padding: 10px;
+        margin: 10px;
+        width: 200px;
+        border-radius: 5px;
+        font-family: 'Bebas Neue', sans-serif;
+        background-color: rgba(253, 254, 255, 0.384);
+        border: 1px solid #ccc;
+    }
+
+    </style>
+</head>
+<body>
+  <h1>Biringan City Citizen Check</h1>
+
+  <div class="box">
+    <input id="first_name" placeholder="First Name"><br>
+    <input id="last_name" placeholder="Last Name"><br>
+        <button>Verify Citizenship</button>
+  </div>
+
+  <p id="result"></p>
+
+  <script type="py" src="main.py"></script>
+</body>
