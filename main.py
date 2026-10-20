@@ -1,7 +1,6 @@
 from pyscript import document
 
-citizen_biringan = ["Guia Suarez", "Loriz Santos", "Maynard Lee",
-                    "Kandice Villanueva", "Gil Dessert", "Robert Pattinson"]
+citizen_biringan = ["Guia Suarez", "Loriz Santos", "Maynard Lee", "Kandice Villanueva", "Gil Dessert", "Robert Pattinson"]
 
 def verify_citizen(event=None):
     first_name = document.getElementById("first_name").value.strip()
